@@ -29,9 +29,9 @@ class MenuBanner extends React.Component {
            
             <div className='masthead segment bg3'>
                 <div className="ui container">
-                        <video muted="" style={myVideo} autoplay="autoplay" loop="loop" >
+                       {/*  <video muted="" style={myVideo} autoplay="autoplay" loop="loop" >
                             <source src="/intro_normalSpeed.mp4" type="video/mp4" />
-                        </video>
+                        </video> */}
                     <div className="introduction">
                     
                         
