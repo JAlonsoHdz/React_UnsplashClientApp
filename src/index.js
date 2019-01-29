@@ -1,5 +1,6 @@
 import React from 'react'; 
 import ReactDOM from 'react-dom'; 
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 import unsplash from './api/unsplash';
 import Search from './components/search'; 
 import MenuBanner from './components/menuBanner';
@@ -35,16 +36,18 @@ class App extends React.Component {
 
     render() {          
         return (
-            
-            
-            <div id="example" className="index">          
-                    <Menu />
-                    <MenuBanner />
-                    <Search imageAmount={this.state.images.length} onSubmit={this.onSearchSubmit}/>  
-                    <Images listImg = {this.state.images}/>
-                                       
-            </div>                   
-            
+            <Router>
+                <div id="example" className="index">                              
+                <Route exact path="/" component={Menu} />
+                <Route exact path="/" component={MenuBanner} />
+                <Route exact path="/search" render={(props) => <Search imageAmount={this.state.images.length} onSubmit={this.onSearchSubmit}/>} />
+                <Route exact path="/search" render={(props) => <Images listImg = {this.state.images}/>} />
+               {/*  <Menu />                        
+                        <MenuBanner />
+                        <Search imageAmount={this.state.images.length} onSubmit={this.onSearchSubmit}/>  
+                        <Images listImg = {this.state.images}/>   */}                                                         
+                </div>                   
+            </Router>
         );
     }
     
