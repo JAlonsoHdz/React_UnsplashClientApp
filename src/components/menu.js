@@ -8,8 +8,8 @@ class Menu extends React.Component {
         return(
             <div className="ui menu">
                 <div className="header item">Unsplash API client</div>
-                <a className="active item" href="https://github.com/JAlonsoHdz/React_UnsplashClientApp" target="_blank">GitHub</a>
-                <a className="item">Contact Me</a>
+                <a className="active item" href="/">Home</a>
+                <a className="item" href="https://github.com/JAlonsoHdz/React_UnsplashClientApp" target="_blank">GitHub</a>  
                 <div className="ui dropdown item">
                     Other
                     <i className="dropdown icon"></i>
