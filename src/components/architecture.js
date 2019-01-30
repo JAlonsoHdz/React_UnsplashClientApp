@@ -1,0 +1,16 @@
+import React from 'react';
+
+const Architecture = () => { 
+    var iFrame = {
+        width: "100%",
+        height: "613px",
+    };
+
+    return(
+        <iframe frameborder="0" style={iFrame} src="https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Unsplash%20app#R5Vrbcts2EP0aPcbDu6RHSXbTTJ0Zd9w0zSNMrkg0EMEBQUvK1xcQwStIU44pyUpfNMRysSDPHix2l5rYq83uI0NJ9JkGQCaWEewm9u3EsuYzR%2FxKwT4XuK6XC0KGg1xkVoJH%2FAOU0FDSDAeQNhQ5pYTjpCn0aRyDzxsyxBjdNtXWlDRXTVAImuDRR0SXfsUBj3LpzDUq%2Be%2BAw6hY2TTUnQ0qlJUgjVBAtzWRfTexV4xSnl9tdisgErsCl3zebz13ywdjEPNjJiR%2F3nvpH2Rvfvk7gu%2Bxc28s4IOpzKR8X7wxBAIANaSMRzSkMSJ3lXTJaBYHIM0aYhTxDRGXprj8FzjfKx%2BijFMhqizcU5oovXxNuVDvuxTPRTPmwwsvYClOIBYCf0HPKREXTAW6Ac72Yh4Dgjh%2Bbj4HUpwJSz01dcEY2tcUEopjntYsP0iBUFDsd2zle0V%2By2i5qK1vvKgvLvInKEa1V6lEB7e%2FggKWNyYFhAPZ%2Fh8pv3GL4Teldhjc7hqjvRodSx3YYV4zL0bfancq43JQ2L4A3exroJs7vQTdpieim%2BPYDcLdGO4A5w6jB2BYvBOwVxLxeFINksUbgyyDbDBnRtNETnY1q3L7qVk3tezzs654xusIchcIWO41BCxxQF4gYOVLPiOSKRgWSTKxPCLgXD4xcRXy0mc1flXskS7dRpjDY4IOztqKVLnJqDUmZEUJZYe5doBgtvaFPOWMfofaHc%2BfwdO6XO8ZGIfdyyzRvaom2K34bxbu2FaZrlmkr1Ety3WNfiLUnPET21TD%2BhEQ86MrBNc1W1w9FlzvVOA6GrifIc6uEFq7HQYuDq3bCe0SiZqUXSHAZarwbgA2nf%2Fp%2Be0deX5P33h%2Bv8k7nkb%2FTxsUQnqF1PfaNdHFqT%2FtBneFWPAL4Gu7l8bX1Nn7JU4TglKRdhiLh0965CEEJ6mMMGmEEin0Cc2CErqiUWhJkGnMVcQQMWzQJ4jgMJYGBZyyJB0F8lZXydUB9zoALzuZoyNedkTP2nTsC%2FrmQNAfMZib8yOj%2BSjto45%2Bj9vce20P58%2BldQTGqqSK1%2B9I7w3B9o2cHycZ7yquBsstsT94kxgMUvwDPR0UpCNVNSq03eXEvZW7TdAlVZuztvkIrKUpuemwj8hCibmk0jIVexfH4V8HXn1wxioWWp5xOqKi2bFJ7ZPt0Y6yd4epfqRfDndGudgNVKrIkDJOrLSGS2K3ww%2FWyfygl8R68IyDhfzUdTiIUJpivz%2Fdbea7N%2FOf6pHWmvD1LnxhrrcRLwdtW2OG155G6oDvCtlbo%2Bu8uYdNw22a6Om36oacliG3ZejEYbpIEN7rN8HB09Ma5WOf3q20Wn45U0O9WKf3q%2BEru6jt4v4sTVS9%2BbQQB7%2FIhX2eMdAI95ZCZr0Gz%2B8sZILp%2FMkY6aSw3ludaJt6diUOSFhncqpPNwmNQTHzumrGFr%2Bd%2BZFQOyeDWk%2BODlATSNOTYX0eWrex7kpER8JaDKt%2Fv%2BSBpvoLkX33Hw%3D%3D"></iframe>
+    );
+}
+
+export default Architecture;
+
+

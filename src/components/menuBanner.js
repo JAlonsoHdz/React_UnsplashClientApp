@@ -55,7 +55,8 @@ class MenuBanner extends React.Component {
                         <Link to="/search" className="ui huge inverted download button">
                             Test it!
                         </Link>
-                        <a href="/introduction/new.html" className="ui huge inverted basic button">Architecture</a>
+                        <Link to="/architecture" className="ui huge inverted basic button">App Architecture</Link>
+                        
                     </div>             
                 </div>
              </div> 
