@@ -10,6 +10,7 @@ import MenuBanner from './components/menuBanner';
 import Menu from './components/menu';
 import Images from './components/imageList';
 import Architecture from './components/architecture';
+import YouTubeApp from './components/YouTubeApp';
 
 
 /* const App = () => {
@@ -48,6 +49,7 @@ class App extends React.Component {
                 <Route exact path="/search" render={(props) => <Search imageAmount={this.state.images.length} onSubmit={this.onSearchSubmit}/>} />
                 <Route exact path="/search" render={(props) => <Images listImg = {this.state.images}/>} />
                 <Route exact path="/architecture" component={Architecture}  />
+                <Route exact path="/YouTubeApp" component={YouTubeApp}  />
                 
                {/*  <Menu />                        
                         <MenuBanner />

@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 
 class Menu extends React.Component {
 
@@ -14,7 +15,13 @@ class Menu extends React.Component {
                     Other
                     <i className="dropdown icon"></i>
                     <div className="menu">
-                        <div className="item">Java and Struts</div>
+
+                       
+                        <div className="item">
+                            <Link to="/YouTubeApp">
+                                YouTube App!
+                            </Link>
+                        </div>
                         <div className="item">LifeRay DXP Work</div>
                         <div className="item">Spring boot webapp</div>
                         <div className="divider"></div>
