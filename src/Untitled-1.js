@@ -33,6 +33,8 @@
           }
         })
       ;
+
+      $('table').removeClass("ui stacked segment").attr("width","100%");
     })
   ;
   </script>
