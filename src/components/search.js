@@ -12,7 +12,7 @@ class Search extends React.Component {
 
     render() {                       
         return (                
-                <div className="content">
+                
                     
                     <div className="ui segment">
                         
@@ -29,7 +29,7 @@ class Search extends React.Component {
                             </div>
                         </form>
                     </div>
-                </div>
+                
         );
     }    
 }

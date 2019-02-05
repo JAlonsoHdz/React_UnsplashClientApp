@@ -46,8 +46,10 @@ class App extends React.Component {
                 <div id="example" className="index">                              
                 <Route path="/" component={Menu} />
                 <Route exact path="/" component={MenuBanner} />
-                <Route exact path="/search" render={(props) => <Search imageAmount={this.state.images.length} onSubmit={this.onSearchSubmit}/>} />
-                <Route exact path="/search" render={(props) => <Images listImg = {this.state.images}/>} />
+                <div className="ui container">
+                    <Route exact path="/search" render={(props) => <Search imageAmount={this.state.images.length} onSubmit={this.onSearchSubmit}/>} />
+                    <Route exact path="/search" render={(props) => <Images listImg = {this.state.images}/>} />
+                </div>
                 <Route exact path="/architecture" component={Architecture}  />
                 <Route exact path="/YouTubeApp" component={YouTubeApp}  />
                 

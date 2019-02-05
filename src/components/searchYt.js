@@ -18,9 +18,9 @@ class SearchYT extends React.Component {
                     <div className="ui segment">                        
                         <form onSubmit={this.onVideoSearch} className="ui form">
                             <div className="field">
-                                <label>Type the keyword image below and hit return:</label>
+                                <label>Type the video title keyword below and hit return:</label>
                                 <input 
-                                    placeholder="Search image keyword(s)...."
+                                    placeholder="Search...."
                                     type="text"
                                     value = {this.state.term}
                                     onChange = {e => this.setState({term: e.target.value})} 
