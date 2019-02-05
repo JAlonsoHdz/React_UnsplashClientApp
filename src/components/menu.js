@@ -22,10 +22,10 @@ class Menu extends React.Component {
                                 YouTube App!
                             </Link>
                         </div>
-                        <div className="item">LifeRay DXP Work</div>
-                        <div className="item">Spring boot webapp</div>
+                        <div className="item">LifeRay DXP Work (not uploaded yet)</div>
+                        <div className="item">Spring boot webapp (not uploaded yet)</div>
                         <div className="divider"></div>
-                        <div className="item">Wordpress</div>
+                        <div className="item">Wordpress (not uploaded yet)</div>
                        
                     </div>
                 </div>  

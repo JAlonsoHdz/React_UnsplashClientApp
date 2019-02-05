@@ -30,7 +30,7 @@ class YouTubeApp extends React.Component {
         return (
             <div className="ui container">                
                 <SearchYT onVideoSubmit={this.onSearchSubmit} videoCount={this.state.videos.length}/>      
-                <VideoList />      
+                <VideoList videoArray={this.state.videos} />      
             </div>
         );
     }
