@@ -52,10 +52,10 @@ class MenuBanner extends React.Component {
                         </h1>
                         <div className="ui hidden divider"></div>
                         
-                        <Link to="/search" className="ui huge inverted basic button">
-                            Test it!
+                        <Link to="/YouTubeApp" className="ui huge inverted basic button">
+                            Test App 1
                         </Link>
-                        <Link to="/architecture" className="ui huge inverted basic button">App Architecture</Link>
+                        <Link to="/search" className="ui huge inverted basic button">Test App 2</Link>
                         
                     </div>             
                 </div>
