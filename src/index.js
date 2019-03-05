@@ -11,6 +11,8 @@ import Menu from './components/menu';
 import Images from './components/imageList';
 import Architecture from './components/architecture';
 import YouTubeApp from './components/YouTubeApp';
+import Card from './components/card';
+import Footer from './components/Footer';
 
 
 /* const App = () => {
@@ -46,6 +48,10 @@ class App extends React.Component {
                 <div id="example" className="index">                              
                 <Route path="/" component={Menu} />
                 <Route exact path="/" component={MenuBanner} />
+                <Route exact path="/" component={Card} />
+                <Route exact path="/" component={Footer} />
+               
+                
                 <div className="ui container">
                     <Route exact path="/search" render={(props) => <Search imageAmount={this.state.images.length} onSubmit={this.onSearchSubmit}/>} />
                     <Route exact path="/search" render={(props) => <Images listImg = {this.state.images}/>} />

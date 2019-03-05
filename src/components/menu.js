@@ -1,14 +1,16 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
+import './menuBanner.css';
 
 class Menu extends React.Component {
 
     render(){
-        
+      
+
 
         return(
             <div className="ui menu">
-                <div className="header item">Unsplash API client</div>
+                <div className="header item">Web App Portfolio</div>
                 <a className="active item" href="/">Home</a>
                 <a className="item" href="https://github.com/JAlonsoHdz/React_UnsplashClientApp" target="_blank">GitHub</a>  
                 <div className="ui dropdown item">
@@ -37,9 +39,12 @@ class Menu extends React.Component {
                             <button className="ui button">Submit</button>
                         </div>
                     </div>
-                    <a className="item">Link</a>
-                </div>
+                    <a className="item">Contact</a>
+                </div>    
+                           
             </div>
+         
+            
       );
     }
 }

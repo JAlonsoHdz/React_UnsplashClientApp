@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import './menuBanner.css';
 
 
+
 class MenuBanner extends React.Component {
 
     render(){
@@ -42,10 +43,10 @@ class MenuBanner extends React.Component {
                         </a>
                         <h1 className="ui inverted header">
                             <span className='library'>
-                            Alonso's portfolio
+                            Alonso Hernandez
                             </span>
                             <span>
-                            Unsplashed API client react app
+                            Full Stack Developer
                             </span>
 
                             
@@ -58,8 +59,11 @@ class MenuBanner extends React.Component {
                         <Link to="/search" className="ui huge inverted basic button">Test App 2</Link>
                         
                     </div>             
-                </div>
+                </div>                                
+                
              </div> 
+             
+             
         );
     }
 }
