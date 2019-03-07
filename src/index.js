@@ -32,6 +32,10 @@ class App extends React.Component {
 
     }
 
+    componentDidMount(){
+        this.onSearchSubmit('car');
+    }
+
     onSearchSubmit = async (term) => {
         const res = await unsplash.get('search/photos',{
             params: {query: term},
@@ -41,6 +45,8 @@ class App extends React.Component {
         this.setState({images: res.data.results}); 
   
     }
+
+    
 
 
     render() {          
