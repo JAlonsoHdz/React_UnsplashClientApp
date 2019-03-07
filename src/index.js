@@ -25,7 +25,7 @@ class App extends React.Component {
         super(props);
 
         this.state = {
-            term:"Hello",
+            term:"",
             images: []
         }; 
 
@@ -41,7 +41,7 @@ class App extends React.Component {
             params: {query: term},
             
         });
-        console.log(this);
+       // console.log(this);
         this.setState({images: res.data.results}); 
   
     }
