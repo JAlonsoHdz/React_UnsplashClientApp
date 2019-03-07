@@ -1,4 +1,4 @@
-import React from 'react'; 
+                                                                                                                                                                                                                                                                                    import React from 'react'; 
 import ReactDOM from 'react-dom'; 
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 
@@ -12,6 +12,7 @@ import Images from './components/imageList';
 import Architecture from './components/architecture';
 import YouTubeApp from './components/YouTubeApp';
 import Card from './components/card';
+import Bio from './components/Bio';
 import Footer from './components/Footer';
 
 
@@ -49,6 +50,8 @@ class App extends React.Component {
                 <Route path="/" component={Menu} />
                 <Route exact path="/" component={MenuBanner} />
                 <Route exact path="/" component={Card} />
+                <Route exact path="/" component={Bio} />
+
                 <Route exact path="/" component={Footer} />
                
                 

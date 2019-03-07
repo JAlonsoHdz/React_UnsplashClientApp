@@ -100,12 +100,12 @@ class Card extends React.Component {
                             <img src="https://cdn-images-1.medium.com/max/1600/1*cMyXhbaUYCJwjYG3nNrImw.jpeg" />
                         </div> 
                         <div className="content">
-                        <div className="header">Spring boot + bootstrap webapp</div>
+                        <div className="header">React/Redux Video Streaming App</div>
                         <div className="meta">
                             <a>React</a>
                         </div>
                         <div className="description">
-                            This is a task manager app that allows to perform CRUD operations on a MySql database
+                            This is an SPA app that will allow to replicate a video streamings service. It includes basic CRUD operations.
                         </div>
                         </div>
                         <div className="extra content">

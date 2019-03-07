@@ -27,7 +27,7 @@ class Menu extends React.Component {
                         <div className="item">LifeRay DXP Work (not uploaded yet)</div>
                         <div className="item">Spring boot webapp (not uploaded yet)</div>
                         <div className="divider"></div>
-                        <div className="item">Wordpress (not uploaded yet)</div>
+                        <a className="item" href="http://www.millennialbreed.com/" target="_blank">Wordpress</a>
                        
                     </div>
                 </div>  

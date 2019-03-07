@@ -262,9 +262,9 @@
   margin: 1em 0em 1.5em;
   padding: 0px;
 }
-#example.index .ui.header {
+/*#example.index .ui.header {
   font-weight: normal;
-}
+}*/
 #example.index .footer .ui.header {
   font-weight: bold;
 }
@@ -520,9 +520,9 @@
 #example .stripe h2 {
   font-size: 26px;
 }
-#example .stripe h3 {
+/*#example .stripe h3 {
   font-size: 20px;
-}
+}*/
 #example .feature.stripe {
   padding: 3em 0em;
 }

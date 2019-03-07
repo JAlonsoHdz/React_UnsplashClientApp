@@ -19,7 +19,7 @@ class YouTubeApp extends React.Component {
     }
 
     componentDidMount(){
-        this.onSearchSubmit('super bowl');
+        this.onSearchSubmit('Spring Framework');
     }
 
     onSearchSubmit = async (term) => {
