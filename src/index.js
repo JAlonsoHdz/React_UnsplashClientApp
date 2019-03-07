@@ -58,7 +58,7 @@ class App extends React.Component {
                 <Route exact path="/" component={Card} />
                 <Route exact path="/" component={Bio} />
 
-                <Route exact path="/" component={Footer} />
+                
                
                 
                 <div className="ui container">
@@ -67,6 +67,8 @@ class App extends React.Component {
                 </div>
                 <Route exact path="/architecture" component={Architecture}  />
                 <Route exact path="/YouTubeApp" component={YouTubeApp}  />
+
+                <Route path="/" component={Footer} />
                 
                {/*  <Menu />                        
                         <MenuBanner />

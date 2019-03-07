@@ -9,7 +9,7 @@ class Menu extends React.Component {
 
 
         return(
-            <div className="ui stackable menu">
+            <div className="ui inverted stackable menu">
                 <div className="header item">Web App Portfolio</div>
                 <a className="active item" href="/">Home</a>
                 <a className="item" href="https://github.com/JAlonsoHdz/React_UnsplashClientApp" target="_blank">GitHub</a>  
