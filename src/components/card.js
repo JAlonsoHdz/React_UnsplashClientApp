@@ -80,7 +80,7 @@ class Card extends React.Component {
                                 <a>React</a>
                             </div>
                             <Link to="//springweo.herokuapp.com" exact className="description" target="_blank" >
-                                This is a task manager app that allows to perform CRUD operations on a MySql database
+                                This is a task manager cloud app that allows to perform CRUD operations on a MySql database. I have migrated it from AWS to Heroku cloud.
                             </Link>
                             </div>
                             <Link to="//springweo.herokuapp.com" exact className="extra content" target="_blank" >
