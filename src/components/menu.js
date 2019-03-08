@@ -39,7 +39,9 @@ class Menu extends React.Component {
                             <button className="ui button">Submit</button>
                         </div>
                     </div>
-                    <a className="item">Contact</a>
+                    <div className="item">
+                        <button className="ui button">Contact</button>
+                    </div>                    
                 </div>    
                            
             </div>
