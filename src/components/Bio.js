@@ -7,10 +7,10 @@ const Bio = () => {
       <div className="row">
         <div className="eight wide column">
           <h3 className="ui header">Who's this guy?</h3>
-          <p>I'm a Mexican born Software Engineer currently based in Houston, Texas. I work for HPE company as a Solution Architect role.
-I'm passionate about single page application built with react.js and Java spring boot stack. Always eager to learn new technologies and frameworks to ease the software develepment process. On my personal hobbies I love soccer and workout enthusiast.</p>
+          <p>I'm a mexican Software Engineer currently based in Houston, Texas. I work for HPE company as a Solution Architect role.
+I'm passionate about single page application built with react.js with node.js and Java spring boot microservices architecture. Always eager to learn new technologies and frameworks to ease the software development process. Among my personal hobbies I love soccer, video games, playing guitar and workout.</p>
           <h3 className="ui header">Accomplishments</h3>
-          <p>Through out my career I've delivered enterprise portal migrations and expanding capabilities to achieve and exceed customer/partner satisfaction. Improve channel user exprience and lead local and remote teams.</p>
+          <p>Through out my career I've delivered enterprise portal migrations and expanding capabilities to achieve and exceed customer/partner satisfaction. Improve channel user experience and lead local and remote teams.</p>
         </div>
         <div className="six wide right floated column">
           <img src="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/1914574_145728029057_5745636_n.jpg?_nc_cat=106&_nc_ht=scontent-dfw5-2.xx&oh=a6c39734158bed6129842fa9aa5ad348&oe=5CE4EC7F" className="ui large bordered rounded image"/>
