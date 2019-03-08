@@ -23,7 +23,7 @@ class Card extends React.Component {
                                 <img src="https://images.unsplash.com/photo-1548328928-34db1c5fcc1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=794&q=80" />
                             </Link>
                             <div className="content">
-                            <Link to="/youtubeapp" exact className="header">YouTube Video Serach App</Link>
+                            <Link to="/youtubeapp" exact className="header">YouTube Video Search App</Link>
                             <div className="meta">
                                 <a>React</a>
                             </div>
@@ -77,7 +77,7 @@ class Card extends React.Component {
                             <div className="content">
                             <Link to="//springweo.herokuapp.com" exact className="header" target="_blank" >Spring boot + bootstrap webapp</Link>
                             <div className="meta">
-                                <a>React</a>
+                                <a>Spring/JSP/MySql</a>
                             </div>
                             <Link to="//springweo.herokuapp.com" exact className="description" target="_blank" >
                                 This is a task manager cloud app that allows to perform CRUD operations on a MySql database. I have migrated it from AWS to Heroku cloud.
